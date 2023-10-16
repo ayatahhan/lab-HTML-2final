@@ -1,0 +1,66 @@
+th{
+    background-color: lightgray;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    padding: 10px;
+}
+.table{
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    padding: 10px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+td{
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    padding: 10px;
+}
+.img1{
+height: 15%;
+width: 15%;
+border-width: 5px;
+border-color: red;
+border-style: dashed;
+padding: 30px;
+}
+.img2{
+    height: 150pt;
+    width: 150pt;
+    border-width: 5px;
+    border-color: red;
+    border-style: dashed;
+    padding: 30px;
+}
+.img3{
+    height: 3in;
+    width: 3in;
+    border-width: 5px;
+    border-color: red;
+    border-style: dashed;
+    padding: 30px;
+
+}
+.paragraph{ 
+    text-align-last: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-family: monospace;
+    font-size: 25px;
+}
+
+.gmail:hover{
+    background-color: red;
+}
+.canvas:visited{ 
+    color: gray;
+}
+.youtube:active{
+    color: orange;
+}
