@@ -131,6 +131,20 @@ I deeply appreciate charming historic syrian huildings. I cant wait to learn <br
             console.log('A')
          }
     </script>
+
+   <button id="changeTextBtn"> change text</button>
+   <p id="displayText">original text</p>
+
+   <script>
+    var changeTextButton= document.getElementById('changeTextBtn');
+    var displayTextParagraph= document.getElementById('displayText');
+    changeTextButton.addEventListener('click',function(){
+        function changeText(){
+            displayTextParagraph.textContent='Hello, JavaScript World!';
+        }
+        changeText();
+    });
+   </script>
 </body>
 </head>
 </html>
