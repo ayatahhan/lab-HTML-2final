@@ -145,6 +145,36 @@ I deeply appreciate charming historic syrian huildings. I cant wait to learn <br
         changeText();
     });
    </script>
+  <script>
+    document.addEventListener('DOMContentloaded',function){
+        function handleFormSubmission(event) {
+            event.preventDefault();
+        let username = document.getElementById('username').value;
+        let password = document.getElementById('password').value;
+        if (username === "" || password === "") {
+          alert("Username/password must be filled out");
+        } else {
+            setTimeout(function() {
+            alert('Login successful');
+        }, 3000);
+        }
+      }
+      document.getElementById('myform').addEventListener('submit', handleFormSubmission);
+    });
+  </script>
+  
+    <form id="myform">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+  
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+  
+      <input type="submit" value="Submit">
+    </form>
+
+  
+   
 </body>
 </head>
 </html>
